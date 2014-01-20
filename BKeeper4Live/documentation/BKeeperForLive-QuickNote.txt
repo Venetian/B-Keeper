@@ -1,0 +1,60 @@
+quick note - andrewrobertson77@gmail.com
+
+
+IMPORTANT - B-Keeper won't work unless the externals are found by Max. The externals are the code that runs B-Keeper, so externals are "code objects" in MaxMSP. Max then provides a way of interfacing with Ableton - getting audio and messages that the code requires. The output from the B-Keeper external changes Live's using Max4Live.
+
+Externals
+
+place .mxo ones and the whole bonk~ folder in:
+Applications->Max6->cycling'74->max-externals
+
+(assumes Mac OS X)
+
+
+put the Java .class ones in
+Applications->Max6->cycling'74->Java->Classes
+
+There are two projects:
+an Audio one - for Mac only - and a MIDI one 
+
+
+1.
+try the BKeeperAudio project
+
+it should let you click
+
+"expert"
+
+check the response is roughly halfway or more, not zero (max sometimes doesn't load decent settings)
+
+then click "use recorded files"
+
+->small window pops up
+
+open Kick and Snare downloaded from B-Keeper.org - test files are the "example files" here:
+http://www.b-keeper.org/links.html
+
+These are close mic'ed signals, good for testing this before getting drums involved.
+
+press play - you should hear the audio coming through the BKeeperAudio channel in Live.
+
+now try and launch Live - eg TAP in time to start.
+
+you can have B-Keeper trigger using the "contain" on the front page - i.e. listen for clicked sticks on snare mic. This was useful Live. When it's zero, it lets you start the Live set.
+
+does the tempo respond? does it stay in time with the drums?
+
+2. the MIDI project
+this can use Java or C external
+
+it's slightly hard-coded for a Roland MIDI kit. There's a screenshot here that shows how - these MIDI numbers trigger a "kick" and "snare" signal.
+
+works in a similar was as above. You probably want to test that the drum kit will light up kick and snare in orange, 
+
+you can choose to respond to cymbal events with toggle box, not sure which best, maybe off for now.
+
+try playing the Live project and using drums.
+
+
+
+

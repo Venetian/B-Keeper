@@ -1,0 +1,51 @@
+quick note
+
+Externals
+
+place .mxo ones and the whole bonk~ folder in:
+Applications->Max6->cycling'74->max-externals
+
+(assumes Mac OS X)
+
+
+put the Java .class ones in
+Applications->Max6->cycling'74->Java->Classes
+
+There are two projects:
+an Audio one - for Mac only - and a MIDI one 
+
+
+1.
+try the BKeeperAudio project
+
+it should let you click
+
+"expert"
+
+check the response is roughly halfway or more, not zero (max sometimes doesn't load decent settings)
+
+then click "use recorded files"
+
+->small window pops up
+
+open Kick and Snare downloaded from B-Keeper.org (see links?)
+
+These are close mic'ed signals, good for testing
+
+press play
+
+now try and launch Live - eg TAP in time to start.
+
+you can have B-Keeper trigger using the "contain" on the front page - i.e. listen for clicked sticks on snare mic. This was useful Live. When it's zero, it lets you start the Live set.
+
+does the tempo respond? does it stay in time with the drums?
+
+2. the MIDI project
+this can use Java or C external
+
+it's slightly hard-coded for a Roland MIDI kit.
+
+works in a similar was as above. You probably want to test that the drum kit will light up kick and snare in orange, 
+
+you 
+
