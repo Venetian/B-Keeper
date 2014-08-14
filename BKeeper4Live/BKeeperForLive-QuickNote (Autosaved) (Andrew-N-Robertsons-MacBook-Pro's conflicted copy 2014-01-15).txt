@@ -8,8 +8,11 @@ Applications->Max6->cycling'74->max-externals
 (assumes Mac OS X)
 
 
+For Windows, use Java version so
 put the Java .class ones in
 Applications->Max6->cycling'74->Java->Classes
+
+then the project, B-KeeperAudio2_Java will work (loads up BKeeper15_Java.amxd)
 
 There are two projects:
 an Audio one - for Mac only - and a MIDI one 
