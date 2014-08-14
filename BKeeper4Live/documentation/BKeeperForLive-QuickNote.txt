@@ -11,8 +11,19 @@ Applications->Max6->cycling'74->max-externals
 (assumes Mac OS X)
 
 
-put the Java .class ones in
+For Windows, use Java version as this is cross platform.
+so put the Java .class ones (beatsync72.class and starter7.class) in
 Applications->Max6->cycling'74->Java->Classes
+
+and put the bonk~.mxe in Cycling74->max-externals
+
+then the project, B-KeeperAudio2_Java will work (loads up BKeeper15_Java.amxd)
+
+
+
+
+
+
 
 There are two projects:
 an Audio one - for Mac only - and a MIDI one 
@@ -43,6 +54,8 @@ now try and launch Live - eg TAP in time to start.
 you can have B-Keeper trigger using the "contain" on the front page - i.e. listen for clicked sticks on snare mic. This was useful Live. When it's zero, it lets you start the Live set.
 
 does the tempo respond? does it stay in time with the drums?
+
+
 
 2. the MIDI project
 this can use Java or C external
